@@ -16,6 +16,7 @@ get_header();
 			      <div class="modal-content">
 			        <div class="modal-body">
 			        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+			        	<h2>Add your project</h2>
 			          	<?php echo do_shortcode('[gravityform id="3" name="Showcase" title="false" description="false" ajax="true"]');?>
 			        </div>
 			      </div>
